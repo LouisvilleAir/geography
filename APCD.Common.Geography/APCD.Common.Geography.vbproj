@@ -1,0 +1,242 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>
+    </SchemaVersion>
+    <ProjectGuid>{4A793CD2-CB0C-4778-BF8C-254058BF659A}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>
+    </RootNamespace>
+    <AssemblyName>APCD.Common.Geography</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>Windows</MyType>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>APCD.Common.Geography.xml</DocumentationFile>
+    <NoWarn>41999,42016,42017,42018,42019,42020,42021,42022,42032,42036</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>APCD.Common.Geography.xml</DocumentationFile>
+    <NoWarn>41999,42016,42017,42018,42019,42020,42021,42022,42032,42036</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Business\CoordinateDataSource.vb" />
+    <Compile Include="Business\CoordinateVerificationMethod.vb" />
+    <Compile Include="Business\GeographicCoordinateType.vb" />
+    <Compile Include="Business\HorizontalCollectionMethod.vb" />
+    <Compile Include="Business\HorizontalReferenceDatum.vb" />
+    <Compile Include="Business\Point.vb" />
+    <Compile Include="Business\PointDetail.vb" />
+    <Compile Include="Business\PointDetailType.vb" />
+    <Compile Include="Business\VerticalCollectionMethod.vb" />
+    <Compile Include="Business\VerticalReferenceDatum.vb" />
+    <Compile Include="Collections\CoordinateDataSources.vb" />
+    <Compile Include="Collections\CoordinateVerificationMethods.vb" />
+    <Compile Include="Collections\GeographicCoordinateTypes.vb" />
+    <Compile Include="Collections\HorizontalCollectionMethods.vb" />
+    <Compile Include="Collections\HorizontalReferenceDatums.vb" />
+    <Compile Include="Collections\PointDetails.vb" />
+    <Compile Include="Collections\PointDetailTypes.vb" />
+    <Compile Include="Collections\Points.vb" />
+    <Compile Include="Collections\VerticalCollectionMethods.vb" />
+    <Compile Include="Collections\VerticalReferenceDatums.vb" />
+    <Compile Include="Constants\CoordinateDataSourceConstants.vb" />
+    <Compile Include="Constants\CoordinateVerificationMethodConstants.vb" />
+    <Compile Include="Constants\GeographicCoordinateTypeConstants.vb" />
+    <Compile Include="Constants\HorizontalCollectionMethodConstants.vb" />
+    <Compile Include="Constants\HorizontalReferenceDatumConstants.vb" />
+    <Compile Include="Constants\PointConstants.vb" />
+    <Compile Include="Constants\PointDetailConstants.vb" />
+    <Compile Include="Constants\PointDetailTypeConstants.vb" />
+    <Compile Include="Constants\VerticalCollectionMethodConstants.vb" />
+    <Compile Include="Constants\VerticalReferenceDatumConstants.vb" />
+    <Compile Include="Data\CoordinateDataSourceDB.vb" />
+    <Compile Include="Data\CoordinateVerificationMethodDB.vb" />
+    <Compile Include="Data\GeographicCoordinateTypeDB.vb" />
+    <Compile Include="Data\HorizontalCollectionMethodDB.vb" />
+    <Compile Include="Data\HorizontalReferenceDatumDB.vb" />
+    <Compile Include="Data\PointDB.vb" />
+    <Compile Include="Data\PointDetailDB.vb" />
+    <Compile Include="Data\PointDetailTypeDB.vb" />
+    <Compile Include="Data\VerticalCollectionMethodDB.vb" />
+    <Compile Include="Data\VerticalReferenceDatumDB.vb" />
+    <Compile Include="Globals\GlobalMethods.vb" />
+    <Compile Include="Globals\GlobalVariables.vb" />
+    <Compile Include="Globals\OleDbHelper.vb" />
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Utility\CoordinateDataSourceUtility.vb" />
+    <Compile Include="Utility\CoordinateVerificationMethodUtility.vb" />
+    <Compile Include="Utility\GeographicCoordinateTypeUtility.vb" />
+    <Compile Include="Utility\HorizontalCollectionMethodUtility.vb" />
+    <Compile Include="Utility\HorizontalReferenceDatumUtility.vb" />
+    <Compile Include="Utility\PointDetailTypeUtility.vb" />
+    <Compile Include="Utility\PointDetailUtility.vb" />
+    <Compile Include="Utility\PointUtility.vb" />
+    <Compile Include="Utility\VerticalCollectionMethodUtility.vb" />
+    <Compile Include="Utility\VerticalReferenceDatumUtility.vb" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="StoredProcedure\AllStoredProceduresText.sql" />
+    <Content Include="StoredProcedure\CoordinateDataSource\CoordinateDataSource_Delete.sql" />
+    <Content Include="StoredProcedure\CoordinateDataSource\CoordinateDataSource_GetAll.sql" />
+    <Content Include="StoredProcedure\CoordinateDataSource\CoordinateDataSource_GetByLookupName.sql" />
+    <Content Include="StoredProcedure\CoordinateDataSource\CoordinateDataSource_GetByPrimaryKey.sql" />
+    <Content Include="StoredProcedure\CoordinateDataSource\CoordinateDataSource_GetLookupTable.sql" />
+    <Content Include="StoredProcedure\CoordinateDataSource\CoordinateDataSource_Insert.sql" />
+    <Content Include="StoredProcedure\CoordinateDataSource\CoordinateDataSource_Update.sql" />
+    <Content Include="StoredProcedure\CoordinateVerificationMethod\CoordinateVerificationMethod_Delete.sql" />
+    <Content Include="StoredProcedure\CoordinateVerificationMethod\CoordinateVerificationMethod_GetAll.sql" />
+    <Content Include="StoredProcedure\CoordinateVerificationMethod\CoordinateVerificationMethod_GetByLookupName.sql" />
+    <Content Include="StoredProcedure\CoordinateVerificationMethod\CoordinateVerificationMethod_GetByPrimaryKey.sql" />
+    <Content Include="StoredProcedure\CoordinateVerificationMethod\CoordinateVerificationMethod_GetLookupTable.sql" />
+    <Content Include="StoredProcedure\CoordinateVerificationMethod\CoordinateVerificationMethod_Insert.sql" />
+    <Content Include="StoredProcedure\CoordinateVerificationMethod\CoordinateVerificationMethod_Update.sql" />
+    <Content Include="StoredProcedure\GeographicCoordinateType\GeographicCoordinateType_Delete.sql" />
+    <Content Include="StoredProcedure\GeographicCoordinateType\GeographicCoordinateType_GetAll.sql" />
+    <Content Include="StoredProcedure\GeographicCoordinateType\GeographicCoordinateType_GetByLookupName.sql" />
+    <Content Include="StoredProcedure\GeographicCoordinateType\GeographicCoordinateType_GetByPrimaryKey.sql" />
+    <Content Include="StoredProcedure\GeographicCoordinateType\GeographicCoordinateType_GetLookupTable.sql" />
+    <Content Include="StoredProcedure\GeographicCoordinateType\GeographicCoordinateType_Insert.sql" />
+    <Content Include="StoredProcedure\GeographicCoordinateType\GeographicCoordinateType_Update.sql" />
+    <Content Include="StoredProcedure\HorizontalCollectionMethod\HorizontalCollectionMethod_Delete.sql" />
+    <Content Include="StoredProcedure\HorizontalCollectionMethod\HorizontalCollectionMethod_GetAll.sql" />
+    <Content Include="StoredProcedure\HorizontalCollectionMethod\HorizontalCollectionMethod_GetByLookupName.sql" />
+    <Content Include="StoredProcedure\HorizontalCollectionMethod\HorizontalCollectionMethod_GetByPrimaryKey.sql" />
+    <Content Include="StoredProcedure\HorizontalCollectionMethod\HorizontalCollectionMethod_GetLookupTable.sql" />
+    <Content Include="StoredProcedure\HorizontalCollectionMethod\HorizontalCollectionMethod_Insert.sql" />
+    <Content Include="StoredProcedure\HorizontalCollectionMethod\HorizontalCollectionMethod_Update.sql" />
+    <Content Include="StoredProcedure\HorizontalReferenceDatum\HorizontalReferenceDatum_Delete.sql" />
+    <Content Include="StoredProcedure\HorizontalReferenceDatum\HorizontalReferenceDatum_GetAll.sql" />
+    <Content Include="StoredProcedure\HorizontalReferenceDatum\HorizontalReferenceDatum_GetByLookupName.sql" />
+    <Content Include="StoredProcedure\HorizontalReferenceDatum\HorizontalReferenceDatum_GetByPrimaryKey.sql" />
+    <Content Include="StoredProcedure\HorizontalReferenceDatum\HorizontalReferenceDatum_GetLookupTable.sql" />
+    <Content Include="StoredProcedure\HorizontalReferenceDatum\HorizontalReferenceDatum_Insert.sql" />
+    <Content Include="StoredProcedure\HorizontalReferenceDatum\HorizontalReferenceDatum_Update.sql" />
+    <Content Include="StoredProcedure\PointDetailType\PointDetailType_Delete.sql" />
+    <Content Include="StoredProcedure\PointDetailType\PointDetailType_GetAll.sql" />
+    <Content Include="StoredProcedure\PointDetailType\PointDetailType_GetByLookupName.sql" />
+    <Content Include="StoredProcedure\PointDetailType\PointDetailType_GetByPrimaryKey.sql" />
+    <Content Include="StoredProcedure\PointDetailType\PointDetailType_GetLookupTable.sql" />
+    <Content Include="StoredProcedure\PointDetailType\PointDetailType_Insert.sql" />
+    <Content Include="StoredProcedure\PointDetailType\PointDetailType_Update.sql" />
+    <Content Include="StoredProcedure\PointDetail\PointDetail_Delete.sql" />
+    <Content Include="StoredProcedure\PointDetail\PointDetail_GetAll.sql" />
+    <Content Include="StoredProcedure\PointDetail\PointDetail_GetByPointDetailTypeID.sql" />
+    <Content Include="StoredProcedure\PointDetail\PointDetail_GetByPointID.sql" />
+    <Content Include="StoredProcedure\PointDetail\PointDetail_GetByPrimaryKey.sql" />
+    <Content Include="StoredProcedure\PointDetail\PointDetail_Insert.sql" />
+    <Content Include="StoredProcedure\PointDetail\PointDetail_Update.sql" />
+    <Content Include="StoredProcedure\Point\Point_Delete.sql" />
+    <Content Include="StoredProcedure\Point\Point_GetAll.sql" />
+    <Content Include="StoredProcedure\Point\Point_GetByCoordinateDataSourceID.sql" />
+    <Content Include="StoredProcedure\Point\Point_GetByCoordinateVerificationMethodID.sql" />
+    <Content Include="StoredProcedure\Point\Point_GetByGeographicCoordinateTypeID.sql" />
+    <Content Include="StoredProcedure\Point\Point_GetByHorizontalCollectionMethodID.sql" />
+    <Content Include="StoredProcedure\Point\Point_GetByHorizontalReferenceDatumID.sql" />
+    <Content Include="StoredProcedure\Point\Point_GetByPrimaryKey.sql" />
+    <Content Include="StoredProcedure\Point\Point_GetByVerticalCollectionMethodID.sql" />
+    <Content Include="StoredProcedure\Point\Point_GetByVerticalReferenceDatumID.sql" />
+    <Content Include="StoredProcedure\Point\Point_Insert.sql" />
+    <Content Include="StoredProcedure\Point\Point_Update.sql" />
+    <Content Include="StoredProcedure\VerticalCollectionMethod\VerticalCollectionMethod_Delete.sql" />
+    <Content Include="StoredProcedure\VerticalCollectionMethod\VerticalCollectionMethod_GetAll.sql" />
+    <Content Include="StoredProcedure\VerticalCollectionMethod\VerticalCollectionMethod_GetByLookupName.sql" />
+    <Content Include="StoredProcedure\VerticalCollectionMethod\VerticalCollectionMethod_GetByPrimaryKey.sql" />
+    <Content Include="StoredProcedure\VerticalCollectionMethod\VerticalCollectionMethod_GetLookupTable.sql" />
+    <Content Include="StoredProcedure\VerticalCollectionMethod\VerticalCollectionMethod_Insert.sql" />
+    <Content Include="StoredProcedure\VerticalCollectionMethod\VerticalCollectionMethod_Update.sql" />
+    <Content Include="StoredProcedure\VerticalReferenceDatum\VerticalReferenceDatum_Delete.sql" />
+    <Content Include="StoredProcedure\VerticalReferenceDatum\VerticalReferenceDatum_GetAll.sql" />
+    <Content Include="StoredProcedure\VerticalReferenceDatum\VerticalReferenceDatum_GetByLookupName.sql" />
+    <Content Include="StoredProcedure\VerticalReferenceDatum\VerticalReferenceDatum_GetByPrimaryKey.sql" />
+    <Content Include="StoredProcedure\VerticalReferenceDatum\VerticalReferenceDatum_GetLookupTable.sql" />
+    <Content Include="StoredProcedure\VerticalReferenceDatum\VerticalReferenceDatum_Insert.sql" />
+    <Content Include="StoredProcedure\VerticalReferenceDatum\VerticalReferenceDatum_Update.sql" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

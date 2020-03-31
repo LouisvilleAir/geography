@@ -1,0 +1,10 @@
+C:\Users\mfarris\Documents\Visual Studio 2010\Projects\Library\APCD.Common.Geography\APCD.Common.Geography\bin\Release\APCD.Common.Geography.dll
+C:\Users\mfarris\Documents\Visual Studio 2010\Projects\Library\APCD.Common.Geography\APCD.Common.Geography\bin\Release\APCD.Common.Geography.pdb
+C:\Users\mfarris\Documents\Visual Studio 2010\Projects\Library\APCD.Common.Geography\APCD.Common.Geography\bin\Release\APCD.Common.Geography.xml
+C:\Users\mfarris\Documents\Visual Studio 2010\Projects\Library\APCD.Common.Geography\APCD.Common.Geography\obj\Release\ResolveAssemblyReference.cache
+C:\Users\mfarris\Documents\Visual Studio 2010\Projects\Library\APCD.Common.Geography\APCD.Common.Geography\obj\Release\Resources.resources
+C:\Users\mfarris\Documents\Visual Studio 2010\Projects\Library\APCD.Common.Geography\APCD.Common.Geography\obj\Release\GenerateResource.read.1.tlog
+C:\Users\mfarris\Documents\Visual Studio 2010\Projects\Library\APCD.Common.Geography\APCD.Common.Geography\obj\Release\GenerateResource.write.1.tlog
+C:\Users\mfarris\Documents\Visual Studio 2010\Projects\Library\APCD.Common.Geography\APCD.Common.Geography\obj\Release\APCD.Common.Geography.dll
+C:\Users\mfarris\Documents\Visual Studio 2010\Projects\Library\APCD.Common.Geography\APCD.Common.Geography\obj\Release\APCD.Common.Geography.xml
+C:\Users\mfarris\Documents\Visual Studio 2010\Projects\Library\APCD.Common.Geography\APCD.Common.Geography\obj\Release\APCD.Common.Geography.pdb

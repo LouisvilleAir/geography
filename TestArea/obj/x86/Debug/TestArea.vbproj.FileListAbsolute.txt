@@ -1,0 +1,13 @@
+C:\Users\mfarris\Documents\Visual Studio 2010\Projects\Library\APCD.Common.Geography\TestArea\bin\Debug\TestArea.exe
+C:\Users\mfarris\Documents\Visual Studio 2010\Projects\Library\APCD.Common.Geography\TestArea\bin\Debug\TestArea.pdb
+C:\Users\mfarris\Documents\Visual Studio 2010\Projects\Library\APCD.Common.Geography\TestArea\bin\Debug\TestArea.xml
+C:\Users\mfarris\Documents\Visual Studio 2010\Projects\Library\APCD.Common.Geography\TestArea\bin\Debug\APCD.Common.Geography.dll
+C:\Users\mfarris\Documents\Visual Studio 2010\Projects\Library\APCD.Common.Geography\TestArea\bin\Debug\APCD.Common.Geography.pdb
+C:\Users\mfarris\Documents\Visual Studio 2010\Projects\Library\APCD.Common.Geography\TestArea\bin\Debug\APCD.Common.Geography.xml
+C:\Users\mfarris\Documents\Visual Studio 2010\Projects\Library\APCD.Common.Geography\TestArea\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\mfarris\Documents\Visual Studio 2010\Projects\Library\APCD.Common.Geography\TestArea\obj\x86\Debug\TestArea.Resources.resources
+C:\Users\mfarris\Documents\Visual Studio 2010\Projects\Library\APCD.Common.Geography\TestArea\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\mfarris\Documents\Visual Studio 2010\Projects\Library\APCD.Common.Geography\TestArea\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\mfarris\Documents\Visual Studio 2010\Projects\Library\APCD.Common.Geography\TestArea\obj\x86\Debug\TestArea.exe
+C:\Users\mfarris\Documents\Visual Studio 2010\Projects\Library\APCD.Common.Geography\TestArea\obj\x86\Debug\TestArea.xml
+C:\Users\mfarris\Documents\Visual Studio 2010\Projects\Library\APCD.Common.Geography\TestArea\obj\x86\Debug\TestArea.pdb
